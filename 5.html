@@ -18,11 +18,11 @@
         var 결과 = tf.tensor(판매량); //종속변수
 
         // 2. 모델의 모양을 만듭니다. 
-        // var X = tf.input({ shape: [1] });
-        // var Y = tf.layers.dense({ units: 1 }).apply(X);
-        // var model = tf.model({ inputs: X, outputs: Y });
-        // var compileParam = { optimizer: tf.train.adam(), loss: tf.losses.meanSquaredError }
-        // model.compile(compileParam);
+        var X = tf.input({ shape: [1] });
+        var Y = tf.layers.dense({ units: 1 }).apply(X);
+        var model = tf.model({ inputs: X, outputs: Y });
+        var compileParam = { optimizer: tf.train.adam(), loss: tf.losses.meanSquaredError }
+        model.compile(compileParam);
 
         // 3. 데이터로 모델을 학습시킵니다. 
         // var fitParam = { epochs: 100} 
