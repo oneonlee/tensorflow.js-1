@@ -13,3 +13,7 @@
 * ensorflowjs-vis
 * 딥러닝
 * 수업을 마치며
+
+### Link
+* [Tensorflow (JavaScript) 진도표](https://yah.ac/tensorflowjs)
+* [오픈튜토리얼스](https://opentutorials.org/)
