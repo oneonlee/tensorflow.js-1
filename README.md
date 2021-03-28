@@ -18,3 +18,4 @@
 * [Tensorflow (JavaScript) 진도표](https://yah.ac/tensorflowjs)
 * [오픈튜토리얼스](https://opentutorials.org/)
 * [egoing님 github 'tensorflow.js-1'](https://github.com/egoing/tensorflow.js-1)
+* [머신러닝1 수업 후기](https://oneonlee.tistory.com/13)
